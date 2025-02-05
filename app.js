@@ -1,6 +1,6 @@
 let listaDeNumerosSorteados = [];
 let numeroLimite = 10;
-let numeroSecreto = 5
+let numeroSecreto = 5;
 let tentativas = 1;
 
 function exibirTextoNaTela(tag, texto) {
@@ -58,7 +58,7 @@ function limparCampo() {
 }
 
 function reiniciarJogo() {
-    numeroSecreto = 5
+    numeroSecreto = 5;
     limparCampo();
     tentativas = 1;
     exibirMensagemInicial();
